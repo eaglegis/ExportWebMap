@@ -5,22 +5,17 @@ This script takes the state of a web map in a web application and returns a prin
 
 ## Requirements
 
-* ArcGIS Pro 2.6+/ArcGIS Enterprise 10.8.1+
+* ArcMap 10.3+/ArcGIS Server 10.3+
 
 
 ## Installation Instructions
 
 * Download this repository and unzip the contents to your machine. 
-* Open ArcGIS Pro and navigate to the downloaded directory.
-* Open the "Get Layout Templates Info" script tool in the Export Web Map Toolbox.
-* Set the location where the layout templates (.pagx) are located.
-* Run the "Get Layout Templates Info" script tool.
+* Open ArcMap and navigate to the downloaded directory.
 * Open the "Export Web Map" script tool in the Export Web Map Toolbox.
-* Set the location where the layout templates (.pagx) are located.
+* Set the location where the layout templates (.mxd) are located.
 * Run the "Export Web Map" script tool.
-* Share the "Export Web Map" output result as a web tool to ArcGIS Server in "Synchronous" execution mode.
-* Add the "Get Layout Templates Info" output result to this web tool.
-* Publish the web tool.
+* Publish the tool as a geoprocessing service to ArcGIS Server in "Synchronous" execution mode.
 
 
 ## Resources
